@@ -12,7 +12,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
-import { FormBuilder } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -31,8 +31,7 @@ import { FormBuilder } from '@angular/forms';
     MatFormFieldModule,
     MatSelectModule,
     MatInputModule,
-    MatButtonModule,
-    FormBuilder
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
