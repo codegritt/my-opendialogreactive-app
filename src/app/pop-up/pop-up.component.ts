@@ -21,5 +21,8 @@ export class PopUpComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  saveForm(){
+    console.log('Form data is ', this.profileForm.value);
+  }
 
 }
